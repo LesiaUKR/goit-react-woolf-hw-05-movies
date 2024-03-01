@@ -5,11 +5,10 @@ import { GlobalStyle } from 'Globalstyle';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
   <React.StrictMode>
-    <BrowserRouter basename="/GoIT-REACT-HW-05-movies-finder">
-      <GlobalStyle/>
-          <App />
+    <BrowserRouter basename="/goit-react-woolf-hw-05-movies">
+      <GlobalStyle />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
