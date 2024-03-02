@@ -61,3 +61,7 @@
 `React.lazy()` і `Suspense`.
 
 ### Фінальний результат
+
+![screencapture](./assets/final-result-1.jpg)
+![screencapture](./assets/final-result-2.jpg)
+![screencapture](./assets/final-result-3.jpg)
