@@ -44,7 +44,9 @@ const Review = () => {
           </ul>
         </div>
       ) : (
-        <p>Sorry, there isn't any review for this movie :(</p>
+        status !== Status.LOADING && (
+          <p>Sorry, there isn't any review for this movie :(</p>
+        )
       )}
       {status === Status.LOADING && <Loader />}
       {status === Status.ERROR && <Error>{error}</Error>}

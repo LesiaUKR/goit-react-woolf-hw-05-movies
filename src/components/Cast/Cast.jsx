@@ -64,7 +64,7 @@ const Cast = () => {
           </CastList>
         </div>
       ) : (
-        <p>Sorry, there isn't any actors' info</p>
+        status !== Status.LOADING && <p>Sorry, there isn't any actors' info</p>
       )}
       {status === Status.LOADING && <Loader />}
       {status === Status.ERROR && <Error>{error}</Error>}
